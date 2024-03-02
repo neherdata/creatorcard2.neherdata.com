@@ -1,0 +1,79 @@
+{
+  "description": "Contact Card",
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.tylermneher.contact-card-2",
+  "serialNumber": "6969669",
+  "teamIdentifier": "7QAM3LGSSC",
+  "barcode": {
+    "message": "https://resume.tylermneher.me",
+    "format": "PKBarcodeFormatQR",
+    "messageEncoding": "iso-8859-1",
+    "altText": "Tyler's Resume"
+  },
+  "organizationName": "Neher & Co Data Systems LLC",
+  "logoText": "Contact Card",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(50, 125, 168)",
+  "generic": {
+    "primaryFields": [
+      {
+        "key": "whoami",
+        "label": "whoami",
+        "value": "Tyler M. Neher"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "job",
+        "label": "Owner",
+        "value": "Neher Data Systems"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "workcellfront",
+        "dataDetectorType": "PKDataDetectorTypePhoneNumber",
+        "label": "Work Cell",
+        "value": "+17326143717"
+      },
+      {
+        "key": "workmailfront",
+        "label": "EMAIL",
+        "value": "tyler@neherdata.com",
+        "textAlignment": "PKTextAlignmentRight"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "personalcellback",
+        "dataDetectorType": "PKDataDetectorTypePhoneNumber",
+        "label": "Personal Cell",
+        "value": "+17322755997"
+      },
+      {
+        "key": "workcellback",
+        "dataDetectorType": "PKDataDetectorTypePhoneNumber",
+        "label": "Work Cell",
+        "value": "+17326143717"
+      },
+      {
+        "key": "workmailback",
+        "label": "Workmail",
+        "attributedValue": "<a href='mailto:tyler@neherdata.com'>tyler@neherdata.com</a>",
+        "dataDetectorType": "PKDataDetectorTypeLink"
+      },
+      {
+        "key": "ndsgithub",
+        "label": "Neher Data Systems GitHub",
+        "attributedValue": "<a href='https://github.com/neherdata'>neherdata</a>",
+        "dataDetectorType": "PKDataDetectorTypeLink"
+      },
+      {
+        "key": "tylergithub",
+        "label": "Tyler's GitHub",
+        "attributedValue": "<a href='https://github.com/tylermneher'>tylermneher</a>",
+        "dataDetectorType": "PKDataDetectorTypeLink"
+      }
+    ]
+  }
+}
