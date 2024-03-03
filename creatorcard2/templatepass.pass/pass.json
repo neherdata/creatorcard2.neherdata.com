@@ -2,7 +2,7 @@
   "description": "Contact Card",
   "formatVersion": 1,
   "passTypeIdentifier": "pass.com.tylermneher.contact-card-2",
-  "serialNumber": "6969669",
+  "serialNumber": "12345",
   "teamIdentifier": "7QAM3LGSSC",
   "barcode": {
     "message": "https://resume.tylermneher.me",
